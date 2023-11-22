@@ -1,0 +1,58 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "a75c867dfaa12aca3f00fd16a1a82874",
+    "entities": [
+      {
+        "tableName": "summoner_profile",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`puuid` TEXT NOT NULL, `name` TEXT NOT NULL, `profile_icon_id` INTEGER NOT NULL, `revision_date` INTEGER NOT NULL, `summoner_level` INTEGER NOT NULL, PRIMARY KEY(`puuid`))",
+        "fields": [
+          {
+            "fieldPath": "puuid",
+            "columnName": "puuid",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "profileIconId",
+            "columnName": "profile_icon_id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "revisionDate",
+            "columnName": "revision_date",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "summonerLevel",
+            "columnName": "summoner_level",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "puuid"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'a75c867dfaa12aca3f00fd16a1a82874')"
+    ]
+  }
+}

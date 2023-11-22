@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Widget.SummonerTracker.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconSize">@dimen/bottom_nav_item_icon_size</item>
+        <item name="android:background">@drawable/bg_bottom_navigation</item>
+    </style>
+
+    <style name="ActiveIndicatorBottomNavigationView" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:width" tools:override="true">0dp</item>
+        <item name="android:height" tools:override="true">0dp</item>
+    </style>
+</resources>

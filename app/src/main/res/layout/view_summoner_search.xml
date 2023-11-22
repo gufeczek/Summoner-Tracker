@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etSummonerInput"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_search_view"
+        android:backgroundTint="?colorPrimarySurface"
+        android:hint="Enter summoner name"
+        android:paddingStart="30dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:maxLength="16"
+        android:queryHint="Search"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlSymmetry" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="end">
+
+        <ImageButton
+            android:id="@+id/btnSelectRegion"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/shape_region_selection_disabled"
+            android:tag=""
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/tvRegionName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center|start"/>
+
+    </FrameLayout>
+
+</FrameLayout>

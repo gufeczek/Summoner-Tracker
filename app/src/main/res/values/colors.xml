@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="seed">#bc1d33</color>
+    <color name="md_theme_dark_primary">#FFB3B2</color>
+    <color name="md_theme_dark_onPrimary">#680013</color>
+    <color name="md_theme_dark_primaryContainer">#92001F</color>
+    <color name="md_theme_dark_onPrimaryContainer">#FFDAD9</color>
+    <color name="md_theme_dark_secondary">#FFB0CC</color>
+    <color name="md_theme_dark_onSecondary">#5D1136</color>
+    <color name="md_theme_dark_secondaryContainer">#7A294D</color>
+    <color name="md_theme_dark_onSecondaryContainer">#FFD9E4</color>
+    <color name="md_theme_dark_tertiary">#A1C9FF</color>
+    <color name="md_theme_dark_onTertiary">#00325A</color>
+    <color name="md_theme_dark_tertiaryContainer">#00487F</color>
+    <color name="md_theme_dark_onTertiaryContainer">#D2E4FF</color>
+    <color name="md_theme_dark_error">#FFB4AB</color>
+    <color name="md_theme_dark_errorContainer">#93000A</color>
+    <color name="md_theme_dark_onError">#690005</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+    <color name="md_theme_dark_background">#201A1A</color>
+    <color name="md_theme_dark_onBackground">#ECE0DF</color>
+    <color name="md_theme_dark_surface">#201A1A</color>
+    <color name="md_theme_dark_onSurface">#ECE0DF</color>
+    <color name="md_theme_dark_surfaceVariant">#524343</color>
+    <color name="md_theme_dark_onSurfaceVariant">#D7C1C1</color>
+    <color name="md_theme_dark_outline">#A08C8B</color>
+    <color name="md_theme_dark_inverseOnSurface">#201A1A</color>
+    <color name="md_theme_dark_inverseSurface">#ECE0DF</color>
+    <color name="md_theme_dark_inversePrimary">#B91A31</color>
+    <color name="md_theme_dark_shadow">#000000</color>
+    <color name="md_theme_dark_surfaceTint">#FFB3B2</color>
+    <color name="md_theme_dark_outlineVariant">#524343</color>
+    <color name="md_theme_dark_scrim">#000000</color>
+
+    <color name="white_12">#0CFFFFFF</color>
+    <color name="black_12">#0C000000</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

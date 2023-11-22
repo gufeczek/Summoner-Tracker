@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginTop="30dp"
+    app:justifyContent="space_between">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_start"
+            android:text="BR"
+            android:background="@drawable/bg_region_item"
+            android:paddingHorizontal="40dp"
+            android:paddingVertical="20dp" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/tv_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KR"
+        android:background="@drawable/bg_region_item"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NA"
+        android:background="@drawable/bg_region_item"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="20dp"/>
+
+</com.google.android.flexbox.FlexboxLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Summoner Tracker</string>
+    <string-array name="regions_array">
+        <item>KR</item>
+        <item>EUW</item>
+        <item>EUNE</item>
+        <item>BR</item>
+        <item>JP</item>
+        <item>LAN</item>
+        <item>LAS</item>
+        <item>OCE</item>
+        <item>PH</item>
+        <item>RU</item>
+        <item>TR</item>
+        <item>SG</item>
+        <item>TH</item>
+        <item>TW</item>
+        <item>VN</item>
+    </string-array>
+</resources>
