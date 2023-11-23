@@ -1,1 +1,1 @@
-# LoLPlayerTracker
+# summonertracker-android
